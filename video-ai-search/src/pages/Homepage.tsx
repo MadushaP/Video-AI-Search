@@ -2,6 +2,7 @@
 // change this component to client component
 
 'use client'
+
 import { useState, useEffect } from "react";
 import { ProfileCard } from "@/components/ProfileCard";
 import { SearchInput } from "@/components/SearchInput";
@@ -16,28 +17,51 @@ const Home = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Fetch data (replace with your actual data fetching logic)
+
   useEffect(() => {
-    // Simulate data fetching (replace with your actual logic)
-    setTimeout(() => setFetchedData(data), 1000);
+    // Fetch all JSON files from the 'data' directory
+    const importJsonFiles = async () => {
+      try {
+        const files = await importAll(require.context("../../../video-intelligence-api/analysis_results", false, /\.json$/));
+
+        console.log(files)
+        setFetchedData(files);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+    importJsonFiles();
   }, []);
 
   // Update filtered data whenever searchQuery or fetchedData changes
   useEffect(() => {
-    const newData = fetchedData.filter((user) => {
-      if (!searchQuery) return true;
-      return (
-        user.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        user.role.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        user.username.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        user.email.toLowerCase().includes(searchQuery.toLowerCase())
-      );
-    });
-    setFilteredData(newData);
-    setCurrentPage(1); // Reset current page when search query changes
-    // console.log("New filtered data:", newData);
+    const newData = fetchedData.map(userData => {
+        const userId = Object.keys(userData)[0]; // Get the user ID
 
-  }, [fetchedData, searchQuery]);
+        const filteredEntries = userData[userId].filter(entry => {
+            const lowerSearchQuery = searchQuery.toLowerCase();
+            const lowerEntity = entry.entity.toLowerCase();
+            
+            const entityMatch = lowerEntity.includes(lowerSearchQuery);
+
+            const categoryMatch = entry.categories && entry.categories.some(category =>
+                category.toLowerCase().includes(lowerSearchQuery)
+            );
+
+            return entityMatch || categoryMatch;
+        });
+
+        // Only return user data if there are filtered entries
+        if (filteredEntries.length > 0) {
+            return {
+                [userId]: filteredEntries
+            };
+        }
+    }).filter(Boolean);
+
+    setFilteredData(newData);
+    setCurrentPage(1);
+}, [fetchedData, searchQuery]);
 
   // Get the total number of pages based on filtered data
   const totalPages = Math.ceil(filteredData.length / ITEMS_PER_PAGE);
@@ -61,9 +85,17 @@ const Home = () => {
         <p>No result returned</p>
       ) : (
         <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10">
-          {paginatedData.map(({ username, role, name, photo, email }: iProfile) => (
-            <div key={username}>
-              <ProfileCard name={name} role={role} photo={photo} email={email} username={username} />
+          {paginatedData.map((pageData, pageIndex) => (
+            <div key={pageIndex}>
+              {Object.entries(pageData).map(([fileName, entities], index) => (
+                <ProfileCard
+                  key={fileName} // Use filename as the key for each card
+                  name={fileName} // Use filename as the name for each card
+                  role={entities.map(({ entity }) => entity).join(", ")} // Concatenate entities' names into one string
+                  videoID={fileName}
+                  // Add other props as needed for ProfileCard component
+                />
+              ))}
             </div>
           ))}
         </div>
@@ -71,6 +103,7 @@ const Home = () => {
     </div>
   );
 
+  
   // Render pagination buttons (replace with your preferred UI library)
   const renderPagination = () => {
     if (totalPages <= 1) return null;
@@ -106,3 +139,19 @@ const Home = () => {
 };
 
 export default Home;
+
+// Function to import all JSON files from a directory
+function importAll(r) {
+  const fileNames = r.keys();
+  console.log("File names:", fileNames);
+  const files = fileNames.map((fileName) => {
+    // Extract the filename from the path using string manipulation
+    const fileNameWithoutExtension = fileName.replace(/^.*[\\\/]/, '').replace(/\.\w+$/, '');
+    const file = r(fileName);
+    // console.log("File content:", file);
+    // Return an object with the filename as the key
+    return { [fileNameWithoutExtension]: file };
+  });
+  // console.log("Imported files:", files);
+  return files;
+}

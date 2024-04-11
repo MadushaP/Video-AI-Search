@@ -1,0 +1,172 @@
+[
+    {
+        "entity": "android",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.4259653687477112
+            }
+        ]
+    },
+    {
+        "entity": "mobile device",
+        "categories": [
+            "computer"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.9569457769393921
+            }
+        ]
+    },
+    {
+        "entity": "samsung",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.5945121645927429
+            }
+        ]
+    },
+    {
+        "entity": "mobile phone",
+        "categories": [
+            "telephone"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.9389452934265137
+            }
+        ]
+    },
+    {
+        "entity": "consumer electronics",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.32728150486946106
+            }
+        ]
+    },
+    {
+        "entity": "gadget",
+        "categories": [
+            "technology"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.7499911189079285
+            }
+        ]
+    },
+    {
+        "entity": "portable communications device",
+        "categories": [
+            "technology"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.4131162166595459
+            }
+        ]
+    },
+    {
+        "entity": "smartphone",
+        "categories": [
+            "mobile phone"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.9709796905517578
+            }
+        ]
+    },
+    {
+        "entity": "telephone",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.7277560234069824
+            }
+        ]
+    },
+    {
+        "entity": "electronic device",
+        "categories": [
+            "technology"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.9235296845436096
+            }
+        ]
+    },
+    {
+        "entity": "communication device",
+        "categories": [
+            "technology"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.8539940714836121
+            }
+        ]
+    },
+    {
+        "entity": "multimedia",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.3376466631889343
+            }
+        ]
+    },
+    {
+        "entity": "samsung galaxy",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.6631194949150085
+            }
+        ]
+    },
+    {
+        "entity": "finger",
+        "categories": [
+            "hand"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.3458067774772644
+            }
+        ]
+    }
+]

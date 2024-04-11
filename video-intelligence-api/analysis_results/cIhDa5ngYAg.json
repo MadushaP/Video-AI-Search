@@ -1,0 +1,250 @@
+[
+    {
+        "entity": "transport",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.8094884753227234
+            }
+        ]
+    },
+    {
+        "entity": "vehicle",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.9859907627105713
+            }
+        ]
+    },
+    {
+        "entity": "traffic",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.8597515821456909
+            }
+        ]
+    },
+    {
+        "entity": "building",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.5402858853340149
+            }
+        ]
+    },
+    {
+        "entity": "car",
+        "categories": [
+            "vehicle"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.9553561806678772
+            }
+        ]
+    },
+    {
+        "entity": "taxi",
+        "categories": [
+            "vehicle"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.7268751859664917
+            }
+        ]
+    },
+    {
+        "entity": "lane",
+        "categories": [
+            "road"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.5799435377120972
+            }
+        ]
+    },
+    {
+        "entity": "skyscraper",
+        "categories": [
+            "building"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.6359680891036987
+            }
+        ]
+    },
+    {
+        "entity": "metropolitan area",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.9436793923377991
+            }
+        ]
+    },
+    {
+        "entity": "city",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.8485616445541382
+            }
+        ]
+    },
+    {
+        "entity": "urban area",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.959161639213562
+            }
+        ]
+    },
+    {
+        "entity": "metropolis",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.6880130171775818
+            }
+        ]
+    },
+    {
+        "entity": "downtown",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.9468671083450317
+            }
+        ]
+    },
+    {
+        "entity": "new york city",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.456015020608902
+            }
+        ]
+    },
+    {
+        "entity": "traffic congestion",
+        "categories": [
+            "event"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.6835496425628662
+            }
+        ]
+    },
+    {
+        "entity": "motor vehicle",
+        "categories": [
+            "vehicle"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.9350844621658325
+            }
+        ]
+    },
+    {
+        "entity": "street",
+        "categories": [
+            "road"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.9766166806221008
+            }
+        ]
+    },
+    {
+        "entity": "pedestrian",
+        "categories": [
+            "person"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.32430320978164673
+            }
+        ]
+    },
+    {
+        "entity": "land vehicle",
+        "categories": [
+            "vehicle"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.6740909218788147
+            }
+        ]
+    },
+    {
+        "entity": "road",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 9,
+                "confidence": 0.7266194224357605
+            }
+        ]
+    }
+]

@@ -5,7 +5,7 @@ import YouTube, { YouTubeProps } from 'react-youtube';
 import { iProfile } from "../services/data";
 import { useEffect, useRef, useState } from 'react';
 
-function YouTubePlayer({ playerRef, isPlaying }: { playerRef: React.MutableRefObject<any>, isPlaying: boolean }) {
+function YouTubePlayer({ playerRef, isPlaying, videoID }: { playerRef: React.MutableRefObject<any>, isPlaying: boolean, videoID:string }) {
   const onPlayerReady: YouTubeProps['onReady'] = (event) => {
     playerRef.current = event.target;
   };
@@ -19,7 +19,7 @@ function YouTubePlayer({ playerRef, isPlaying }: { playerRef: React.MutableRefOb
   };
 
   return (
-    <YouTube videoId="8tAB146sc38" opts={opts} onReady={onPlayerReady} />
+    <YouTube videoId={videoID} opts={opts} onReady={onPlayerReady} />
   );
 }
 
@@ -42,18 +42,15 @@ export const ProfileCard = (props: iProfile) => {
     }
   }, [playerRef, jumpButtonId]);
 
-  const { name, email, username, role, photo } = props;
-  const src = `${photo}`;
-
+  const { email, role, videoID } = props;
+//sort out data strcuure
   return (
     <div className="profile__card rounded-[15px] border border-solid" style={{ width: '540px' }}>
       <button id={jumpButtonId}>Jump to 30 seconds</button>
-      <YouTubePlayer playerRef={playerRef} isPlaying={isPlaying} />
+      <YouTubePlayer playerRef={playerRef} isPlaying={isPlaying} videoID={videoID} />
       <div className=" bg-slate-300 p-3">
-        <h2 className="">Name: {name}</h2>
-        <p>Role: {role}</p>
-        <p>Email: {email}</p>
-        <p>follow @{username}</p>
+        <h2 className="">VideoID: {videoID}</h2>
+        <p>Labels: {role}</p>
       </div>
     </div>
   );

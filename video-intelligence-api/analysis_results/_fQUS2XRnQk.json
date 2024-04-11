@@ -1,0 +1,80 @@
+[
+    {
+        "entity": "street",
+        "categories": [
+            "road"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 8,
+                "confidence": 0.8915437459945679
+            }
+        ]
+    },
+    {
+        "entity": "public space",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 8,
+                "confidence": 0.6059624552726746
+            }
+        ]
+    },
+    {
+        "entity": "downtown",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 8,
+                "confidence": 0.3134929835796356
+            }
+        ]
+    },
+    {
+        "entity": "pedestrian",
+        "categories": [
+            "person"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 8,
+                "confidence": 0.49847185611724854
+            }
+        ]
+    },
+    {
+        "entity": "city",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 8,
+                "confidence": 0.3942461907863617
+            }
+        ]
+    },
+    {
+        "entity": "urban area",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 8,
+                "confidence": 0.6985491514205933
+            }
+        ]
+    }
+]

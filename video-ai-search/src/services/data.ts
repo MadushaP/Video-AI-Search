@@ -4,6 +4,7 @@ export interface iProfile {
   photo: string;
   username: string;
   role: "Frontend Developer" | "Backend Developer" | "Fullstack Developer";
+  videoID:string;
 }
 
 export const data: iProfile[] = [];

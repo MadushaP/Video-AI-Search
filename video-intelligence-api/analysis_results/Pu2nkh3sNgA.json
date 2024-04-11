@@ -1,0 +1,51 @@
+[
+    {
+        "entity": "monument",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.4799993634223938
+            }
+        ]
+    },
+    {
+        "entity": "sculpture",
+        "categories": [
+            "art"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.5997204184532166
+            }
+        ]
+    },
+    {
+        "entity": "sky",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.5899110436439514
+            }
+        ]
+    },
+    {
+        "entity": "statue",
+        "categories": [
+            "monument",
+            "artwork"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.8705130219459534
+            }
+        ]
+    }
+]

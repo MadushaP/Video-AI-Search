@@ -1,0 +1,65 @@
+[
+    {
+        "entity": "reptile",
+        "categories": [
+            "animal"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 23,
+                "confidence": 0.9942474365234375
+            }
+        ]
+    },
+    {
+        "entity": "iguania",
+        "categories": [
+            "lizard"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 23,
+                "confidence": 0.5755752921104431
+            }
+        ]
+    },
+    {
+        "entity": "lizard",
+        "categories": [
+            "reptile"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 23,
+                "confidence": 0.8786013126373291
+            }
+        ]
+    },
+    {
+        "entity": "chameleon",
+        "categories": [
+            "lizard"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 23,
+                "confidence": 0.8099148869514465
+            }
+        ]
+    },
+    {
+        "entity": "animal",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 23,
+                "confidence": 0.879321813583374
+            }
+        ]
+    }
+]

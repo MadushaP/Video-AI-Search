@@ -1,0 +1,92 @@
+[
+    {
+        "entity": "bird",
+        "categories": [
+            "animal"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 52,
+                "confidence": 0.943926215171814
+            }
+        ]
+    },
+    {
+        "entity": "poultry",
+        "categories": [
+            "animal"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 52,
+                "confidence": 0.3242824971675873
+            }
+        ]
+    },
+    {
+        "entity": "beak",
+        "categories": [
+            "bird"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 52,
+                "confidence": 0.6058763265609741
+            }
+        ]
+    },
+    {
+        "entity": "galliformes",
+        "categories": [
+            "bird"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 52,
+                "confidence": 0.366035133600235
+            }
+        ]
+    },
+    {
+        "entity": "rooster",
+        "categories": [
+            "chicken"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 52,
+                "confidence": 0.7853279709815979
+            }
+        ]
+    },
+    {
+        "entity": "chicken",
+        "categories": [
+            "bird",
+            "animal"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 52,
+                "confidence": 0.8339632153511047
+            }
+        ]
+    },
+    {
+        "entity": "animal",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 52,
+                "confidence": 0.9390720725059509
+            }
+        ]
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "entity": "giraffidae",
+        "categories": [
+            "mammal"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 15,
+                "confidence": 0.8446399569511414
+            }
+        ]
+    },
+    {
+        "entity": "zoo",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 15,
+                "confidence": 0.8652603030204773
+            }
+        ]
+    },
+    {
+        "entity": "giraffe",
+        "categories": [
+            "mammal"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 15,
+                "confidence": 0.9933058619499207
+            }
+        ]
+    },
+    {
+        "entity": "wildlife",
+        "categories": [
+            "animal"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 15,
+                "confidence": 0.910598874092102
+            }
+        ]
+    },
+    {
+        "entity": "nature",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 15,
+                "confidence": 0.8086859583854675
+            }
+        ]
+    },
+    {
+        "entity": "terrestrial animal",
+        "categories": [
+            "animal"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 15,
+                "confidence": 0.7039221525192261
+            }
+        ]
+    },
+    {
+        "entity": "animal",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 15,
+                "confidence": 0.9336585998535156
+            }
+        ]
+    }
+]

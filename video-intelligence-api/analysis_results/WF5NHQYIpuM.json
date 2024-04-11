@@ -1,0 +1,131 @@
+[
+    {
+        "entity": "skateboard",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.994871199131012
+            }
+        ]
+    },
+    {
+        "entity": "outdoor recreation",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.8544687628746033
+            }
+        ]
+    },
+    {
+        "entity": "sports",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.8937305808067322
+            }
+        ]
+    },
+    {
+        "entity": "boardsport",
+        "categories": [
+            "sports"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.8899325728416443
+            }
+        ]
+    },
+    {
+        "entity": "skateboarder",
+        "categories": [
+            "person"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.9899228811264038
+            }
+        ]
+    },
+    {
+        "entity": "skateboarding",
+        "categories": [
+            "sports"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.9905211925506592
+            }
+        ]
+    },
+    {
+        "entity": "skate",
+        "categories": [
+            "fish"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.746303915977478
+            }
+        ]
+    },
+    {
+        "entity": "skatepark",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.9376437664031982
+            }
+        ]
+    },
+    {
+        "entity": "skateboarding equipment and supplies",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.9776827096939087
+            }
+        ]
+    },
+    {
+        "entity": "kickflip",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.4849499464035034
+            }
+        ]
+    },
+    {
+        "entity": "skateboarding trick",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 7,
+                "confidence": 0.9071470499038696
+            }
+        ]
+    }
+]
