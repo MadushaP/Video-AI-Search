@@ -1,9 +1,10 @@
+# python labels.py video-ai-search --output_dir object_analysis_results
+
 import os
 import argparse
 import json
 
-from google.cloud import storage
-from google.cloud import videointelligence
+from google.cloud import storage, videointelligence
 
 
 def analyze_labels(bucket_name, output_dir):
@@ -31,6 +32,11 @@ def analyze_labels(bucket_name, output_dir):
 
         # Construct output file path
         output_file = os.path.join(output_dir, f"{video_id}.json")
+
+        # Check if output file already exists
+        if os.path.exists(output_file):
+            print(f"Skipping {output_file} as it already exists.")
+            continue
 
         # Analyze labels for the current file
         analyze_video(bucket_name, blob.name, output_file)

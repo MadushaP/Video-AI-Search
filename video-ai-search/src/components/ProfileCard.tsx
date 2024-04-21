@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import YouTube, { YouTubeProps } from 'react-youtube';
 
 // Import the profile interface from data.js

@@ -1,0 +1,52 @@
+[
+    {
+        "entity": "van",
+        "categories": [
+            "car"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 19,
+                "confidence": 0.9244768023490906
+            }
+        ]
+    },
+    {
+        "entity": "vehicle",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 19,
+                "confidence": 0.9405954480171204
+            }
+        ]
+    },
+    {
+        "entity": "motor vehicle",
+        "categories": [
+            "vehicle"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 19,
+                "confidence": 0.6343395113945007
+            }
+        ]
+    },
+    {
+        "entity": "car",
+        "categories": [
+            "vehicle"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 19,
+                "confidence": 0.7258776426315308
+            }
+        ]
+    }
+]

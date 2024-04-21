@@ -22,7 +22,7 @@ const Home = () => {
     // Fetch all JSON files from the 'data' directory
     const importJsonFiles = async () => {
       try {
-        const files = await importAll(require.context("../../../video-intelligence-api/analysis_results", false, /\.json$/));
+        const files = await importAll(require.context("../../../video-intelligence-api/label_analysis_results", false, /\.json$/));
 
         console.log(files)
         setFetchedData(files);
