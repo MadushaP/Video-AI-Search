@@ -2,6 +2,9 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
 import YouTube, { YouTubeProps } from 'react-youtube';
 import '../../app/globals.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+
 
 function YouTubePlayer({ playerRef, videoID }: { playerRef: React.MutableRefObject<any>, isPlaying: boolean, videoID: string }) {
   const onPlayerReady: YouTubeProps['onReady'] = (event) => {
@@ -26,6 +29,11 @@ function YouTubePlayer({ playerRef, videoID }: { playerRef: React.MutableRefObje
 
 function VideoPage() {
   const router = useRouter();
+  const handleBackButtonClick = () => {
+    router.back();
+  };
+
+
   const { videoid } = router.query;
   const playerRef = useRef<any>(null);
   const [fetchedData, setFetchedData] = useState<any[]>([]);
@@ -47,32 +55,6 @@ function VideoPage() {
     };
     importJsonFiles();
   }, [videoid]);
-
-  useEffect(() => {
-    const handlePlayerStateChange = (event: any) => {
-      if (event.data === 1) { // If player state is playing
-        const interval = setInterval(() => {
-          const currentTime = playerRef.current.getCurrentTime();
-          const frameIndex = fetchedData.findIndex((data) => {
-            const timestamps = data.frames.map((frame: any) => frame.timestamp_offset);
-            return timestamps.includes(currentTime);
-          });
-          setCurrentFrameIndex(frameIndex);
-        }, 1000); // Update frame every second
-        return () => clearInterval(interval);
-      }
-    };
-
-    if (playerRef.current) {
-      playerRef.current.addEventListener('onStateChange', handlePlayerStateChange);
-    }
-
-    return () => {
-      if (playerRef.current) {
-        playerRef.current.removeEventListener('onStateChange', handlePlayerStateChange);
-      }
-    };
-  }, [fetchedData]);
 
   const jumpToTime = (timestampOffset: number, index: number, frameNum: number) => {
     try {
@@ -139,6 +121,14 @@ function VideoPage() {
   };
   return (
     <div className="h-screen relative">
+     <button
+      className="absolute top-4 left-4 bg-blue-500 text-white px-3 py-1 rounded flex items-center transition-colors hover:bg-blue-600 hover:text-gray-100"
+      onClick={handleBackButtonClick}
+    >
+      <FontAwesomeIcon icon={faArrowLeft} className="mr-2" />
+      <span>Back</span>
+    </button>
+
       <div className="flex justify-center p-3">
         <YouTubePlayer playerRef={playerRef} isPlaying={false} videoID={videoid as string} />
         {currentFrameIndex !== -1 && playerRef.current && renderBoundingBoxes()}
@@ -150,11 +140,10 @@ function VideoPage() {
               <div className="mb-4 pl-4 mr-4">{data.description}</div>
               {data.frames.map((frame, frameIndex) => (
                 <div
-                key={frameIndex}
-                onMouseEnter={() => jumpToTime(frame.timestamp_offset, index, frameIndex)}
-                className={`flex items-center justify-center bg-orange-500 text-white cursor-pointer hover:bg-orange-600 flex-grow ${
-                  frameIndex === 0 ? 'rounded-l-lg' : ''} ${frameIndex === data.frames.length - 1 ? 'rounded-r-lg' : ''}`}
-              />
+                  key={frameIndex}
+                  onMouseEnter={() => jumpToTime(frame.timestamp_offset, index, frameIndex)}
+                  className={`flex items-center justify-center bg-orange-500 text-white cursor-pointer hover:bg-orange-600 flex-grow ${frameIndex === 0 ? 'rounded-l-lg' : ''} ${frameIndex === data.frames.length - 1 ? 'rounded-r-lg' : ''}`}
+                />
               ))}
             </div>
           )
