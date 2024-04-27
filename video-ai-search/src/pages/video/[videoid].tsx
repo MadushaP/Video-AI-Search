@@ -11,9 +11,11 @@ function YouTubePlayer({ playerRef, videoID }: { playerRef: React.MutableRefObje
     height: '500',
     width: '840',
     playerVars: {
-      autoplay: 0,
+      autoplay: 1,
       controls: 0,
       rel: 0,
+      mute:1,
+      showinfo: 0,
     },
   };
 
@@ -29,6 +31,8 @@ function VideoPage() {
   const [fetchedData, setFetchedData] = useState<any[]>([]);
   const [currentFrameIndex, setCurrentFrameIndex] = useState<number>(0);
   const [selectedBoundingBox, setSelectedBoundingBox] = useState<any>(null); // State to store the selected bounding box
+  const [selectedBoundingBoxLabel, setSelectedBoundingBoxLabel] = useState<any>(null); // State to store the selected bounding box
+
 
   useEffect(() => {
     const importJsonFiles = async () => {
@@ -71,38 +75,42 @@ function VideoPage() {
   }, [fetchedData]);
 
   const jumpToTime = (timestampOffset: number, index: number, frameNum: number) => {
-    if (playerRef.current) {
-      playerRef.current.seekTo(timestampOffset);
-      // Play the video
-      playerRef.current.playVideo();
+    try {
+      if (playerRef.current) {
+        playerRef.current.seekTo(timestampOffset);
+        // Play the video
+        playerRef.current.playVideo();
 
-      // Set the selected bounding box data
-      const selectedData = fetchedData[index];
-      const selectedFrame = selectedData.frames[frameNum];
+        // Set the selected bounding box data
+        const selectedData = fetchedData[index];
+        const selectedFrame = selectedData.frames[frameNum];
 
+        setSelectedBoundingBox(selectedFrame.normalized_bounding_box);
+        setSelectedBoundingBoxLabel(selectedData.description);
 
-      setSelectedBoundingBox(selectedFrame.normalized_bounding_box);
-
-      // Update the current frame index
-      setCurrentFrameIndex(frameNum);
+        // Update the current frame index
+        setCurrentFrameIndex(frameNum);
+      }
+    } catch {
+      console.log("too fast")
     }
   };
 
   const renderBoundingBoxes = () => {
     if (!selectedBoundingBox) return null; // Check if a bounding box is selected
-
+  
     const playerElement = playerRef.current.getIframe();
     if (!playerElement) return null;
-
+  
     const videoWidth = playerElement.offsetWidth;
     const videoHeight = playerElement.offsetHeight;
-
+  
     const { left, top, right, bottom } = selectedBoundingBox;
-
+  
     // Get the position of the iframe within its parent container
     const iframeOffsetLeft = playerElement.getBoundingClientRect().left;
     const iframeOffsetTop = playerElement.getBoundingClientRect().top;
-
+  
     const boxStyle = {
       position: 'absolute',
       left: `${iframeOffsetLeft + left * videoWidth}px`, // Include the offset of the iframe
@@ -111,10 +119,24 @@ function VideoPage() {
       height: `${(bottom - top) * videoHeight}px`,
       border: '2px solid red',
     };
-
-    return <div style={boxStyle} />;
+  
+    // Calculate the position of the label
+    const labelStyle = {
+      position: 'absolute',
+      left: `${iframeOffsetLeft + left * videoWidth}px`, // Include the offset of the iframe
+      top: `${iframeOffsetTop + top * videoHeight - 32}px`, // Position the label above the bounding box (adjust the value as needed)
+      backgroundColor: 'rgba(255, 255, 255, 0.8)',
+      padding: '4px',
+      borderRadius: '4px',
+    };
+  
+    return (
+      <div>
+        <div style={boxStyle} />
+        <div style={labelStyle}>{selectedBoundingBoxLabel}</div>
+      </div>
+    );
   };
-
   return (
     <div className="h-screen relative">
       <div className="flex justify-center p-3">
