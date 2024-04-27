@@ -14,7 +14,7 @@ function YouTubePlayer({ playerRef, videoID }: { playerRef: React.MutableRefObje
       autoplay: 1,
       controls: 0,
       rel: 0,
-      mute:1,
+      mute: 1,
       showinfo: 0,
     },
   };
@@ -98,19 +98,19 @@ function VideoPage() {
 
   const renderBoundingBoxes = () => {
     if (!selectedBoundingBox) return null; // Check if a bounding box is selected
-  
+
     const playerElement = playerRef.current.getIframe();
     if (!playerElement) return null;
-  
+
     const videoWidth = playerElement.offsetWidth;
     const videoHeight = playerElement.offsetHeight;
-  
+
     const { left, top, right, bottom } = selectedBoundingBox;
-  
+
     // Get the position of the iframe within its parent container
     const iframeOffsetLeft = playerElement.getBoundingClientRect().left;
     const iframeOffsetTop = playerElement.getBoundingClientRect().top;
-  
+
     const boxStyle = {
       position: 'absolute',
       left: `${iframeOffsetLeft + left * videoWidth}px`, // Include the offset of the iframe
@@ -119,7 +119,7 @@ function VideoPage() {
       height: `${(bottom - top) * videoHeight}px`,
       border: '2px solid red',
     };
-  
+
     // Calculate the position of the label
     const labelStyle = {
       position: 'absolute',
@@ -129,7 +129,7 @@ function VideoPage() {
       padding: '4px',
       borderRadius: '4px',
     };
-  
+
     return (
       <div>
         <div style={boxStyle} />
@@ -149,9 +149,12 @@ function VideoPage() {
             <div className="flex flex-wrap mt-4" key={index}>
               <div className="mb-4 pl-4 mr-4">{data.description}</div>
               {data.frames.map((frame, frameIndex) => (
-                <div key={frameIndex} onMouseEnter={() => jumpToTime(frame.timestamp_offset, index, frameIndex)}
-
-                  className="flex items-center justify-center bg-orange-500 text-white cursor-pointer hover:bg-orange-600 flex-grow" />
+                <div
+                key={frameIndex}
+                onMouseEnter={() => jumpToTime(frame.timestamp_offset, index, frameIndex)}
+                className={`flex items-center justify-center bg-orange-500 text-white cursor-pointer hover:bg-orange-600 flex-grow ${
+                  frameIndex === 0 ? 'rounded-l-lg' : ''} ${frameIndex === data.frames.length - 1 ? 'rounded-r-lg' : ''}`}
+              />
               ))}
             </div>
           )
