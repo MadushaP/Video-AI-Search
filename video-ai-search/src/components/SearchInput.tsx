@@ -33,7 +33,7 @@ export const SearchInput: React.FC<ISearchInputProps> = (props) => {
 
     return (
         <div className="search__input border-[2px] border-solid border-slate-500 flex flex-row items-center gap-5 p-1 rounded-[15px] justify-center w-[800px] mx-auto">
-            <label htmlFor="inputId">icon</label>
+            <label className="text-3xl pl-3 " htmlFor="inputId">🔎</label>
             <input
                 type="text"
                 id="inputId"

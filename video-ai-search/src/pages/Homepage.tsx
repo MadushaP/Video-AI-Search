@@ -91,7 +91,7 @@ const Home = () => {
                 <ProfileCard
                   key={fileName} // Use filename as the key for each card
                   name={fileName} // Use filename as the name for each card
-                  role={entities.map(({ entity }) => entity).join(", ")} // Concatenate entities' names into one string
+                  roleTag={entities}
                   videoID={fileName}
                   // Add other props as needed for ProfileCard component
                 />
@@ -125,7 +125,7 @@ const Home = () => {
   };
 
   return (
-    <section className="h-[150vh] ">
+    <section className="h-[100vh]">
       <div className="mt-3">
         <p className="text-center w-[250px] mx-auto px-4 py-2">
           Showing {filteredData.length} {filteredData.length > 1 ? "Users" : "User"}

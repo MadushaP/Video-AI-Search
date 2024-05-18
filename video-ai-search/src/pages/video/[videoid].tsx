@@ -168,7 +168,7 @@ function VideoPage() {
                     setSelectedBoundingBox(null);
                     setSelectedBoundingBoxLabel(null);
                   }}
-                  className={`flex items-center justify-center bg-orange-500 text-white cursor-pointer hover:bg-orange-600 flex-grow ${frameIndex === 0 ? 'rounded-l-lg' : ''} ${frameIndex === data.frames.length - 1 ? 'rounded-r-lg' : ''}`}
+                  className={`flex items-center justify-center bg-gray-100 text-white cursor-pointer border-t-2 border-b-2  hover:bg-red-500 flex-grow ${frameIndex === 0 ? 'rounded-l-lg' : ''} ${frameIndex === data.frames.length - 1 ? 'rounded-r-lg' : ''}  ${frameIndex === 0 ? 'border-l-2' : ''} ${frameIndex === data.frames.length - 1 ? 'border-r-2' : ''}`}
                 />
               ))}
             </div>

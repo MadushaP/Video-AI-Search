@@ -11,7 +11,7 @@ function YouTubePlayer({ playerRef, isPlaying, videoID }: { playerRef: React.Mut
   };
   const opts: YouTubeProps['opts'] = {
     height: '350',
-    width: '540',
+    width: '542',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 0, // Set autoplay to 0 to avoid starting all players
@@ -42,22 +42,34 @@ export const ProfileCard = (props: iProfile) => {
     }
   }, [playerRef, jumpButtonId]);
 
-  const { role, videoID } = props;
+  const {  roleTag, videoID } = props;
   //sort out data strcuure
+  // console.log(roleTag[0].entity)
   return (
-    <div className="profile__card rounded-[15px] border border-solid" style={{ width: '542px' }}>
+    <div className="profile__card rounded-[15px] shadow-lg" style={{ width: '542px' }}>
       <YouTubePlayer playerRef={playerRef} isPlaying={isPlaying} videoID={videoID} />
-      <div className="info-container d-flex flex-column justify-content-end align-items-end bg-slate-300 p-3" style={{ height: '163px' }}>
-        <h2 className="pb-4">VideoID: {videoID}
+      <div className=" no-highlight info-container d-flex flex-column bg-gradient-to-b from-gray-100 to-gray-200 justify-content-end bg-white align-items-end rounded-b-xl p-3 shadow-lg" style={{ height: '163px' }}>
+        <h2 className="pb-9">
           <div className="float-right">
             <Link href={`/video/[videoid]`} as={`/video/${videoID}`}>
-              <button className="bg-blue-100 hover:bg-blue-500 rounded-md p-2 text-blue-700">
-                More Info
+            <button class=" bg-gradient-to-b    font-bold  from-green-400 to-green-500 hover:bg-green-500 rounded-md p-2 text-white transform transition-transform duration-200 ease-in-out hover:scale-105">
+              🔎  Frames 
               </button>
             </Link>
           </div>
         </h2>
-        <p>Labels: {role}</p>
+        {roleTag.slice(0, 6).map((item) => (
+          <p
+            key={item.entity}
+            className={`inline-block  hover:cursor-pointer mr-2 bg-gradient-to-b from-blue-400 to-blue-500 rounded-xl py-2 px-3  
+            font-bold text-white mt-2 shadow-md transform transition-transform duration-200 ease-in-out hover:scale-105 `}
+            style={{ borderRadius: '15px' }} >
+            {item.entity}
+          </p>
+        ))}
+        {roleTag.length > 7 && (
+          <span className="text-gray-600 text-xs">+{roleTag.length - 7} more</span>
+        )}
       </div>
     </div>
   );

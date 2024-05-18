@@ -3,7 +3,7 @@ export interface iProfile {
   email: string;
   photo: string;
   username: string;
-  role: "Frontend Developer" | "Backend Developer" | "Fullstack Developer";
+  roleTag: "Frontend Developer" | "Backend Developer" | "Fullstack Developer";
   videoID:string;
 }
 
