@@ -1,14 +1,14 @@
 [
     {
-        "entity": "street",
+        "entity": "downtown",
         "categories": [
-            "road"
+            "city"
         ],
         "segments": [
             {
                 "start_time": 0,
                 "end_time": 8,
-                "confidence": 0.8915437459945679
+                "confidence": 0.3134929835796356
             }
         ]
     },
@@ -26,15 +26,15 @@
         ]
     },
     {
-        "entity": "downtown",
+        "entity": "street",
         "categories": [
-            "city"
+            "road"
         ],
         "segments": [
             {
                 "start_time": 0,
                 "end_time": 8,
-                "confidence": 0.3134929835796356
+                "confidence": 0.8915437459945679
             }
         ]
     },
@@ -52,19 +52,6 @@
         ]
     },
     {
-        "entity": "city",
-        "categories": [
-            "geographical feature"
-        ],
-        "segments": [
-            {
-                "start_time": 0,
-                "end_time": 8,
-                "confidence": 0.3942461907863617
-            }
-        ]
-    },
-    {
         "entity": "urban area",
         "categories": [
             "city"
@@ -74,6 +61,19 @@
                 "start_time": 0,
                 "end_time": 8,
                 "confidence": 0.6985491514205933
+            }
+        ]
+    },
+    {
+        "entity": "city",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 8,
+                "confidence": 0.3942461907863617
             }
         ]
     }

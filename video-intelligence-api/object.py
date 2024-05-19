@@ -1,5 +1,4 @@
 # python object.py video-ai-search --output_dir object_analysis_results
-
 import os
 import argparse
 import json
@@ -27,8 +26,12 @@ def analyze_objects(bucket_name, output_dir):
         video_id = os.path.splitext(filename)[0]
         output_file = os.path.join(output_dir, f"{video_id}.json")
 
-        # Analyze objects for the current file
-        analyze_video(bucket_name, blob.name, output_file)
+        # Check if output file already exists
+        if not os.path.exists(output_file):
+            # Analyze objects for the current file
+            analyze_video(bucket_name, blob.name, output_file)
+        else:
+            print(f"Output file {output_file} already exists. Skipping analysis for {blob.name}.")
 
 
 def analyze_video(bucket_name, path, output_file):
@@ -73,17 +76,17 @@ def analyze_video(bucket_name, path, output_file):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
-    )
-    parser.add_argument(
-        "bucket_name", help="Name of the GCS bucket containing the videos."
-    )
-    parser.add_argument(
-        "--output_dir",
-        help="Output directory for JSON files.",
-        default="analysis_results",
-    )
-    args = parser.parse_args()
+    # parser = argparse.ArgumentParser(
+    #     description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    # )
+    # parser.add_argument(
+    #     "bucket_name", help="Name of the GCS bucket containing the videos."
+    # )
+    # parser.add_argument(
+    #     "--output_dir",
+    #     help="Output directory for JSON files.",
+    #     default="analysis_results",
+    # )
+    # args = parser.parse_args()
 
-    analyze_objects(args.bucket_name, args.output_dir)
+    analyze_objects("video-ai-search", "object_analysis_results")

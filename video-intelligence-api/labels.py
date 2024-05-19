@@ -1,4 +1,4 @@
-# python labels.py video-ai-search --output_dir object_analysis_results
+# python labels.py video-ai-search --output_dir label_analysis_results
 
 import os
 import argparse
@@ -99,15 +99,15 @@ def analyze_video(bucket_name, path, output_file):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
-    )
-    parser.add_argument(
-        "bucket_name", help="Name of the GCS bucket containing the videos."
-    )
-    parser.add_argument(
-        "--output_dir", help="Output directory for JSON files.", default="output"
-    )
-    args = parser.parse_args()
+    # parser = argparse.ArgumentParser(
+    #     description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    # )
+    # parser.add_argument(
+    #     "bucket_name", help="Name of the GCS bucket containing the videos."
+    # )
+    # parser.add_argument(
+    #     "--output_dir", help="Output directory for JSON files.", default="output"
+    # )
+    # args = parser.parse_args()
 
-    analyze_labels(args.bucket_name, args.output_dir)
+    analyze_labels("video-ai-search", "label_analysis_results")

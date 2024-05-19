@@ -5,3 +5,7 @@
 .custom-max-width-1 {
     max-width: 2500px;
   }
+
+  body {
+    user-select: none;
+  }

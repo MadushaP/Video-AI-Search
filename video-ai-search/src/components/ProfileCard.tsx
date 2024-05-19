@@ -42,7 +42,7 @@ export const ProfileCard = (props: iProfile) => {
     }
   }, [playerRef, jumpButtonId]);
 
-  const {  roleTag, videoID } = props;
+  const { roleTag, videoID } = props;
   //sort out data strcuure
   // console.log(roleTag[0].entity)
   return (
@@ -52,8 +52,8 @@ export const ProfileCard = (props: iProfile) => {
         <h2 className="pb-9">
           <div className="float-right">
             <Link href={`/video/[videoid]`} as={`/video/${videoID}`}>
-            <button class=" bg-gradient-to-b    font-bold  from-green-400 to-green-500 hover:bg-green-500 rounded-md p-2 text-white transform transition-transform duration-200 ease-in-out hover:scale-105">
-              🔎  Frames 
+              <button class=" bg-gradient-to-b    font-bold  from-green-400 to-green-500 hover:bg-green-500 rounded-md p-2 text-white transform transition-transform duration-200 ease-in-out hover:scale-105">
+                🔎  Frames
               </button>
             </Link>
           </div>
@@ -61,7 +61,7 @@ export const ProfileCard = (props: iProfile) => {
         {roleTag.slice(0, 6).map((item) => (
           <p
             key={item.entity}
-            className={`inline-block  hover:cursor-pointer mr-2 bg-gradient-to-b from-blue-400 to-blue-500 rounded-xl py-2 px-3  
+            className={`inline-block  hover:cursor-pointer mr-3 bg-gradient-to-b from-blue-400 to-blue-500 rounded-xl py-2 px-3  
             font-bold text-white mt-2 shadow-md transform transition-transform duration-200 ease-in-out hover:scale-105 `}
             style={{ borderRadius: '15px' }} >
             {item.entity}

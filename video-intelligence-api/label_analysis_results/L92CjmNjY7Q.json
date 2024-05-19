@@ -1,0 +1,41 @@
+[
+    {
+        "entity": "mobile device",
+        "categories": [
+            "computer"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.854904055595398
+            }
+        ]
+    },
+    {
+        "entity": "smartphone",
+        "categories": [
+            "mobile phone"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.3748306632041931
+            }
+        ]
+    },
+    {
+        "entity": "mobile phone",
+        "categories": [
+            "telephone"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.45185744762420654
+            }
+        ]
+    }
+]

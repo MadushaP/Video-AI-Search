@@ -1,0 +1,92 @@
+[
+    {
+        "entity": "nature",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 30,
+                "confidence": 0.3207317292690277
+            }
+        ]
+    },
+    {
+        "entity": "ocean",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 30,
+                "confidence": 0.9237878322601318
+            }
+        ]
+    },
+    {
+        "entity": "sea",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 30,
+                "confidence": 0.8490117192268372
+            }
+        ]
+    },
+    {
+        "entity": "wind wave",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 30,
+                "confidence": 0.31074070930480957
+            }
+        ]
+    },
+    {
+        "entity": "body of water",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 30,
+                "confidence": 0.5097924470901489
+            }
+        ]
+    },
+    {
+        "entity": "wave",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 30,
+                "confidence": 0.960467517375946
+            }
+        ]
+    },
+    {
+        "entity": "coast",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 30,
+                "confidence": 0.605804979801178
+            }
+        ]
+    },
+    {
+        "entity": "tide",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 30,
+                "confidence": 0.35793739557266235
+            }
+        ]
+    }
+]

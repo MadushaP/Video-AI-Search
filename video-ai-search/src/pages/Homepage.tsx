@@ -38,6 +38,10 @@ const Home = () => {
     const newData = fetchedData.map(userData => {
         const userId = Object.keys(userData)[0]; // Get the user ID
 
+        document.addEventListener('select', (event) => {
+          event.preventDefault();
+        });
+      
         const filteredEntries = userData[userId].filter(entry => {
             const lowerSearchQuery = searchQuery.toLowerCase();
             const lowerEntity = entry.entity.toLowerCase();
@@ -76,6 +80,7 @@ const Home = () => {
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
+
 
 
   // Render profile cards

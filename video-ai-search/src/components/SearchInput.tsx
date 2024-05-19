@@ -1,5 +1,5 @@
 import { useRouter } from "next/navigation";
-import { useState, ChangeEvent } from "react";
+import { useState, ChangeEvent,useEffect  } from "react";
 
 export interface ISearchInputProps {
     searchQuery: string;
@@ -30,6 +30,18 @@ export const SearchInput: React.FC<ISearchInputProps> = (props) => {
             setSearchQuery(inputValue)
         }
     }
+
+  // useEffect hook to update input based on URL changes
+  useEffect(() => {
+    const currentQuery = router.query?.q; // Use optional chaining
+    if (currentQuery) {
+      // Update input only if there's a query
+      setInputValue(decodeURIComponent(currentQuery));
+    } else {
+      // If no query, use default behavior (empty input)
+      setInputValue("");
+    }
+  }, [router.query]);
 
     return (
         <div className="search__input border-[2px] border-solid border-slate-500 flex flex-row items-center gap-5 p-1 rounded-[15px] justify-center w-[800px] mx-auto">
