@@ -1,0 +1,17 @@
+[
+    {
+        "track_id": "/m/0cgh4",
+        "description": "building",
+        "frames": [
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": 0.13857431709766388,
+                    "top": 0.10283348709344864,
+                    "right": 0.2898872494697571,
+                    "bottom": 0.2216385006904602
+                }
+            }
+        ]
+    }
+]

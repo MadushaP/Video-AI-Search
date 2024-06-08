@@ -1,0 +1,15 @@
+[
+    {
+        "entity": "crowd",
+        "categories": [
+            "people"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 184,
+                "confidence": 0.5680251121520996
+            }
+        ]
+    }
+]

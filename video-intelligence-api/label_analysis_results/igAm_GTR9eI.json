@@ -1,0 +1,113 @@
+[
+    {
+        "entity": "barbecue",
+        "categories": [
+            "meat"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 14,
+                "confidence": 0.8433719277381897
+            }
+        ]
+    },
+    {
+        "entity": "grilling",
+        "categories": [
+            "cooking"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 14,
+                "confidence": 0.9785653948783875
+            }
+        ]
+    },
+    {
+        "entity": "roasting",
+        "categories": [
+            "cooking"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 14,
+                "confidence": 0.6724432110786438
+            }
+        ]
+    },
+    {
+        "entity": "recipe",
+        "categories": [
+            "information"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 14,
+                "confidence": 0.44975677132606506
+            }
+        ]
+    },
+    {
+        "entity": "barbecue grill",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 14,
+                "confidence": 0.854611873626709
+            }
+        ]
+    },
+    {
+        "entity": "meat",
+        "categories": [
+            "food"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 14,
+                "confidence": 0.9922693967819214
+            }
+        ]
+    },
+    {
+        "entity": "food",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 14,
+                "confidence": 0.9888476729393005
+            }
+        ]
+    },
+    {
+        "entity": "cooking",
+        "categories": [
+            "service"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 14,
+                "confidence": 0.9842698574066162
+            }
+        ]
+    },
+    {
+        "entity": "outdoor grill",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 14,
+                "confidence": 0.9168128371238708
+            }
+        ]
+    }
+]

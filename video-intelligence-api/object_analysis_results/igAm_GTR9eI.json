@@ -1,0 +1,1796 @@
+[
+    {
+        "track_id": "/m/02wbm",
+        "description": "food",
+        "frames": [
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 0.287447988986969,
+                    "top": 0.43733617663383484,
+                    "right": 0.5150174498558044,
+                    "bottom": 0.625302791595459
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 0.29179254174232483,
+                    "top": 0.44529786705970764,
+                    "right": 0.5186036825180054,
+                    "bottom": 0.628127932548523
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 0.2918230891227722,
+                    "top": 0.4377168118953705,
+                    "right": 0.5310765504837036,
+                    "bottom": 0.6244624257087708
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 0.2946840524673462,
+                    "top": 0.43200358748435974,
+                    "right": 0.5346149206161499,
+                    "bottom": 0.623930811882019
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 0.2940092384815216,
+                    "top": 0.44742411375045776,
+                    "right": 0.5272218585014343,
+                    "bottom": 0.6231155395507812
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 0.2893022298812866,
+                    "top": 0.4441630244255066,
+                    "right": 0.5332692265510559,
+                    "bottom": 0.6278120875358582
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 0.28952983021736145,
+                    "top": 0.4446561932563782,
+                    "right": 0.5342669486999512,
+                    "bottom": 0.6288751363754272
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 0.2882761061191559,
+                    "top": 0.4351366460323334,
+                    "right": 0.5395629405975342,
+                    "bottom": 0.6292736530303955
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 0.29134610295295715,
+                    "top": 0.44102805852890015,
+                    "right": 0.5365124344825745,
+                    "bottom": 0.6254451870918274
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.29155433177948,
+                    "top": 0.4409872889518738,
+                    "right": 0.5329817533493042,
+                    "bottom": 0.6247760057449341
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.28915277123451233,
+                    "top": 0.4378652274608612,
+                    "right": 0.5281912684440613,
+                    "bottom": 0.629559338092804
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.28807398676872253,
+                    "top": 0.4368724822998047,
+                    "right": 0.5271347761154175,
+                    "bottom": 0.628541111946106
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.28085047006607056,
+                    "top": 0.4387170672416687,
+                    "right": 0.5347356796264648,
+                    "bottom": 0.6265038251876831
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.27866363525390625,
+                    "top": 0.4369238615036011,
+                    "right": 0.5362426042556763,
+                    "bottom": 0.6309129595756531
+                }
+            }
+        ]
+    },
+    {
+        "track_id": "/m/02wbm",
+        "description": "food",
+        "frames": [
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 0.0,
+                    "top": 0.3096565902233124,
+                    "right": 0.9632251262664795,
+                    "bottom": 0.9878801107406616
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": 2.6964323751599295e-07,
+                    "top": 0.30602386593818665,
+                    "right": 0.9726791381835938,
+                    "bottom": 0.9895297288894653
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": -0.0010000646580010653,
+                    "top": 0.30466341972351074,
+                    "right": 0.9718996286392212,
+                    "bottom": 0.9880090951919556
+                }
+            },
+            {
+                "timestamp_offset": 0,
+                "normalized_bounding_box": {
+                    "left": -0.008952162228524685,
+                    "top": 0.30746597051620483,
+                    "right": 0.9639633297920227,
+                    "bottom": 0.9908002018928528
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": -0.011850707232952118,
+                    "top": 0.30841729044914246,
+                    "right": 0.9610658884048462,
+                    "bottom": 0.9917507171630859
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": -0.01674593798816204,
+                    "top": 0.30933672189712524,
+                    "right": 0.9561707377433777,
+                    "bottom": 0.9926700592041016
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": -0.0036907189060002565,
+                    "top": 0.316920667886734,
+                    "right": 0.9662500023841858,
+                    "bottom": 0.9932714700698853
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": -0.0020260908640921116,
+                    "top": 0.32278794050216675,
+                    "right": 0.9677762389183044,
+                    "bottom": 0.9987443089485168
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.0019014839781448245,
+                    "top": 0.3295222818851471,
+                    "right": 0.9716939330101013,
+                    "bottom": 1.0054503679275513
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.00490218261256814,
+                    "top": 0.3207813799381256,
+                    "right": 0.9740150570869446,
+                    "bottom": 1.0013060569763184
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.004778061527758837,
+                    "top": 0.3210538625717163,
+                    "right": 0.9787322878837585,
+                    "bottom": 0.9902260303497314
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.008066329173743725,
+                    "top": 0.31632161140441895,
+                    "right": 0.9777992963790894,
+                    "bottom": 0.9862659573554993
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.005690018180757761,
+                    "top": 0.3028028607368469,
+                    "right": 0.9747605323791504,
+                    "bottom": 0.9909640550613403
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.0022490122355520725,
+                    "top": 0.30366238951683044,
+                    "right": 0.9735316038131714,
+                    "bottom": 0.9813745021820068
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.003458551364019513,
+                    "top": 0.309659868478775,
+                    "right": 0.9694568514823914,
+                    "bottom": 0.9811720848083496
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.0015223228838294744,
+                    "top": 0.3046157658100128,
+                    "right": 0.9741699695587158,
+                    "bottom": 0.9767259359359741
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.005181488115340471,
+                    "top": 0.28118371963500977,
+                    "right": 0.9719613790512085,
+                    "bottom": 0.9788005352020264
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.015466848388314247,
+                    "top": 0.25071850419044495,
+                    "right": 0.9731560945510864,
+                    "bottom": 0.9727674722671509
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.015129655599594116,
+                    "top": 0.2452683448791504,
+                    "right": 0.9767663478851318,
+                    "bottom": 0.9659226536750793
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.0162508524954319,
+                    "top": 0.24922634661197662,
+                    "right": 0.9766414761543274,
+                    "bottom": 0.9663538932800293
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.28967446088790894,
+                    "top": 0.43913811445236206,
+                    "right": 0.6121848821640015,
+                    "bottom": 0.6709353923797607
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.29152393341064453,
+                    "top": 0.42965462803840637,
+                    "right": 0.6139236688613892,
+                    "bottom": 0.6611469388008118
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.28191763162612915,
+                    "top": 0.4263457655906677,
+                    "right": 0.6043136715888977,
+                    "bottom": 0.6578278541564941
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.20765775442123413,
+                    "top": 0.41536492109298706,
+                    "right": 0.572146475315094,
+                    "bottom": 0.6304727792739868
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.32076025009155273,
+                    "top": 0.44686803221702576,
+                    "right": 0.5158397555351257,
+                    "bottom": 0.5699763298034668
+                }
+            }
+        ]
+    },
+    {
+        "track_id": "/m/02wbm",
+        "description": "food",
+        "frames": [
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.425109326839447,
+                    "top": 0.004890903830528259,
+                    "right": 0.9107701182365417,
+                    "bottom": 0.4212162494659424
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.3490726947784424,
+                    "top": 0.0055540078319609165,
+                    "right": 0.8116090297698975,
+                    "bottom": 0.40280619263648987
+                }
+            },
+            {
+                "timestamp_offset": 1,
+                "normalized_bounding_box": {
+                    "left": 0.25265976786613464,
+                    "top": -0.00657774368301034,
+                    "right": 0.7363004088401794,
+                    "bottom": 0.40858194231987
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.17996065318584442,
+                    "top": -0.01094046514481306,
+                    "right": 0.6652488708496094,
+                    "bottom": 0.4056171774864197
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.111053466796875,
+                    "top": -0.021321676671504974,
+                    "right": 0.5964609384536743,
+                    "bottom": 0.39533713459968567
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.16957886517047882,
+                    "top": 0.023377053439617157,
+                    "right": 0.414741188287735,
+                    "bottom": 0.31624752283096313
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.13912053406238556,
+                    "top": 0.016888758167624474,
+                    "right": 0.40886473655700684,
+                    "bottom": 0.37890586256980896
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.06740027666091919,
+                    "top": 0.0003006913175340742,
+                    "right": 0.40214189887046814,
+                    "bottom": 0.41034209728240967
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.02980443835258484,
+                    "top": -0.0030154320411384106,
+                    "right": 0.3820403814315796,
+                    "bottom": 0.4378926753997803
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.02413155883550644,
+                    "top": 0.05394066870212555,
+                    "right": 0.35754382610321045,
+                    "bottom": 0.41571104526519775
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.03280714526772499,
+                    "top": 0.1436397284269333,
+                    "right": 0.3169821500778198,
+                    "bottom": 0.33781248331069946
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.048326775431632996,
+                    "top": 0.19674892723560333,
+                    "right": 0.3105618357658386,
+                    "bottom": 0.41470128297805786
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.0393536314368248,
+                    "top": 0.25576987862586975,
+                    "right": 0.3134564459323883,
+                    "bottom": 0.4837179183959961
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.03527310490608215,
+                    "top": 0.32576367259025574,
+                    "right": 0.310214102268219,
+                    "bottom": 0.5544176697731018
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.03826248273253441,
+                    "top": 0.38032788038253784,
+                    "right": 0.3132586181163788,
+                    "bottom": 0.6090283393859863
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.08780371397733688,
+                    "top": 0.4123990535736084,
+                    "right": 0.3386409878730774,
+                    "bottom": 0.6422012448310852
+                }
+            }
+        ]
+    },
+    {
+        "track_id": "/m/02wbm",
+        "description": "food",
+        "frames": [
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.8027891516685486,
+                    "top": 0.2127895951271057,
+                    "right": 0.9930651187896729,
+                    "bottom": 0.31153571605682373
+                }
+            },
+            {
+                "timestamp_offset": 2,
+                "normalized_bounding_box": {
+                    "left": 0.7951480746269226,
+                    "top": 0.21216358244419098,
+                    "right": 0.9870755672454834,
+                    "bottom": 0.3097635805606842
+                }
+            }
+        ]
+    },
+    {
+        "track_id": "/m/02wbm",
+        "description": "food",
+        "frames": [
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.007504671812057495,
+                    "top": 0.27560725808143616,
+                    "right": 0.9656875133514404,
+                    "bottom": 0.9849462509155273
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.028772879391908646,
+                    "top": 0.3179195523262024,
+                    "right": 0.9725114703178406,
+                    "bottom": 0.9820302724838257
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.028669947758316994,
+                    "top": 0.3176250755786896,
+                    "right": 0.9724191427230835,
+                    "bottom": 0.981529712677002
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.33588114380836487,
+                    "top": 0.49639248847961426,
+                    "right": 0.5767210721969604,
+                    "bottom": 0.656152069568634
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.1444268524646759,
+                    "top": 0.4003124535083771,
+                    "right": 0.5690354704856873,
+                    "bottom": 0.6388423442840576
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.1215948760509491,
+                    "top": 0.35352396965026855,
+                    "right": 0.5460840463638306,
+                    "bottom": 0.5923851728439331
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.15124280750751495,
+                    "top": 0.37144097685813904,
+                    "right": 0.4241648316383362,
+                    "bottom": 0.6026057600975037
+                }
+            }
+        ]
+    },
+    {
+        "track_id": "/m/01g317",
+        "description": "person",
+        "frames": [
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.15524913370609283,
+                    "top": 0.0,
+                    "right": 1.0,
+                    "bottom": 0.7454493045806885
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.1572885662317276,
+                    "top": 0.007396216504275799,
+                    "right": 1.0015602111816406,
+                    "bottom": 0.7527667284011841
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.1638791412115097,
+                    "top": 0.011920607648789883,
+                    "right": 1.0081499814987183,
+                    "bottom": 0.7572910189628601
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.15126365423202515,
+                    "top": 0.020490091294050217,
+                    "right": 1.0028722286224365,
+                    "bottom": 0.839938759803772
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.14796888828277588,
+                    "top": 0.032962147146463394,
+                    "right": 1.0000181198120117,
+                    "bottom": 0.8575626015663147
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.1468551605939865,
+                    "top": 0.035802822560071945,
+                    "right": 0.9989360570907593,
+                    "bottom": 0.8607741594314575
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.14124181866645813,
+                    "top": 0.027224287390708923,
+                    "right": 0.999850869178772,
+                    "bottom": 0.8684056997299194
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.1408577263355255,
+                    "top": 0.02397073060274124,
+                    "right": 0.9996942281723022,
+                    "bottom": 0.865602433681488
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.14140178263187408,
+                    "top": 0.02027716487646103,
+                    "right": 1.00025475025177,
+                    "bottom": 0.8619412779808044
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.22882676124572754,
+                    "top": 0.020197929814457893,
+                    "right": 0.980892539024353,
+                    "bottom": 0.8610209822654724
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.25101417303085327,
+                    "top": 0.020249107852578163,
+                    "right": 0.9953594207763672,
+                    "bottom": 0.8609957695007324
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.2585597336292267,
+                    "top": 0.020844226703047752,
+                    "right": 1.0023524761199951,
+                    "bottom": 0.8615853786468506
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.2848636209964752,
+                    "top": 0.02877303585410118,
+                    "right": 1.0009784698486328,
+                    "bottom": 0.774776816368103
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.2898269593715668,
+                    "top": 0.00809447094798088,
+                    "right": 1.0035468339920044,
+                    "bottom": 0.7466142177581787
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.2907494306564331,
+                    "top": -0.0011436769273132086,
+                    "right": 1.0043039321899414,
+                    "bottom": 0.7368592023849487
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.2352265566587448,
+                    "top": -0.02481573261320591,
+                    "right": 1.0153065919876099,
+                    "bottom": 0.8181664347648621
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.2211664319038391,
+                    "top": -0.009776937775313854,
+                    "right": 1.0057047605514526,
+                    "bottom": 0.8405592441558838
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.21793974936008453,
+                    "top": 0.0007978236535564065,
+                    "right": 1.0028098821640015,
+                    "bottom": 0.8516813516616821
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.29947182536125183,
+                    "top": 0.009076026268303394,
+                    "right": 0.9794594049453735,
+                    "bottom": 0.8360083103179932
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.3289358615875244,
+                    "top": 0.010064386762678623,
+                    "right": 1.00090491771698,
+                    "bottom": 0.8352019786834717
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.36014968156814575,
+                    "top": 0.012262502685189247,
+                    "right": 1.031548023223877,
+                    "bottom": 0.8372724056243896
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.5493000745773315,
+                    "top": -0.003319171257317066,
+                    "right": 0.9789329767227173,
+                    "bottom": 0.9227251410484314
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.6014799475669861,
+                    "top": 0.017244400456547737,
+                    "right": 1.0133174657821655,
+                    "bottom": 0.9500387907028198
+                }
+            },
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": 0.6118283867835999,
+                    "top": 0.023642640560865402,
+                    "right": 1.0223472118377686,
+                    "bottom": 0.9569372534751892
+                }
+            }
+        ]
+    },
+    {
+        "track_id": "/m/02wbm",
+        "description": "food",
+        "frames": [
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.022654324769973755,
+                    "top": 0.2928400933742523,
+                    "right": 0.9883356094360352,
+                    "bottom": 0.9753478765487671
+                }
+            },
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.30824562907218933,
+                    "top": 0.4235566556453705,
+                    "right": 0.5593767762184143,
+                    "bottom": 0.6244804859161377
+                }
+            }
+        ]
+    },
+    {
+        "track_id": "/m/02wbm",
+        "description": "food",
+        "frames": [
+            {
+                "timestamp_offset": 3,
+                "normalized_bounding_box": {
+                    "left": 0.031338661909103394,
+                    "top": 0.2828853726387024,
+                    "right": 0.985061526298523,
+                    "bottom": 0.9638486504554749
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.15476785600185394,
+                    "top": 0.40366339683532715,
+                    "right": 0.4858810305595398,
+                    "bottom": 0.6477453708648682
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.162442147731781,
+                    "top": 0.40461617708206177,
+                    "right": 0.4936857521533966,
+                    "bottom": 0.6490436792373657
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.16964691877365112,
+                    "top": 0.40554988384246826,
+                    "right": 0.5008904933929443,
+                    "bottom": 0.6499773859977722
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.17685170471668243,
+                    "top": 0.40648359060287476,
+                    "right": 0.5080953240394592,
+                    "bottom": 0.6509110927581787
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.18805666267871857,
+                    "top": 0.46909019351005554,
+                    "right": 0.5232904553413391,
+                    "bottom": 0.692082405090332
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.19719070196151733,
+                    "top": 0.48642104864120483,
+                    "right": 0.5324245095252991,
+                    "bottom": 0.7094132900238037
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.1985800415277481,
+                    "top": 0.5142639875411987,
+                    "right": 0.46816331148147583,
+                    "bottom": 0.7006953954696655
+                }
+            }
+        ]
+    },
+    {
+        "track_id": "/m/02wbm",
+        "description": "food",
+        "frames": [
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.025889575481414795,
+                    "top": 0.2775525152683258,
+                    "right": 0.9731823205947876,
+                    "bottom": 0.9720200300216675
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.18805727362632751,
+                    "top": 0.45823314785957336,
+                    "right": 0.5618979930877686,
+                    "bottom": 0.6415395736694336
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.19024966657161713,
+                    "top": 0.47335192561149597,
+                    "right": 0.549209475517273,
+                    "bottom": 0.6877883672714233
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.18495552241802216,
+                    "top": 0.5030035376548767,
+                    "right": 0.543915331363678,
+                    "bottom": 0.7174399495124817
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.18814386427402496,
+                    "top": 0.4225706458091736,
+                    "right": 0.5610673427581787,
+                    "bottom": 0.6918842792510986
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.23557773232460022,
+                    "top": 0.4404238760471344,
+                    "right": 0.570792555809021,
+                    "bottom": 0.6319645643234253
+                }
+            },
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.24540892243385315,
+                    "top": 0.4298948347568512,
+                    "right": 0.5808115601539612,
+                    "bottom": 0.6215527057647705
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.24828654527664185,
+                    "top": 0.4270856976509094,
+                    "right": 0.5686968564987183,
+                    "bottom": 0.6101465225219727
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.24974048137664795,
+                    "top": 0.4231151342391968,
+                    "right": 0.5690983533859253,
+                    "bottom": 0.6055724620819092
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.24861092865467072,
+                    "top": 0.4195835590362549,
+                    "right": 0.5678884387016296,
+                    "bottom": 0.6019948124885559
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.24464990198612213,
+                    "top": 0.41274306178092957,
+                    "right": 0.5639212131500244,
+                    "bottom": 0.5951507687568665
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.24164645373821259,
+                    "top": 0.41593319177627563,
+                    "right": 0.5758213400840759,
+                    "bottom": 0.606887698173523
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.2444019317626953,
+                    "top": 0.4226085841655731,
+                    "right": 0.5647327899932861,
+                    "bottom": 0.6056239008903503
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.23343396186828613,
+                    "top": 0.41191625595092773,
+                    "right": 0.579352855682373,
+                    "bottom": 0.6553798913955688
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.22668331861495972,
+                    "top": 0.4136124849319458,
+                    "right": 0.5855205655097961,
+                    "bottom": 0.6804914474487305
+                }
+            }
+        ]
+    },
+    {
+        "track_id": "/m/02wbm",
+        "description": "food",
+        "frames": [
+            {
+                "timestamp_offset": 4,
+                "normalized_bounding_box": {
+                    "left": 0.006979197263717651,
+                    "top": 0.32628247141838074,
+                    "right": 0.9669786691665649,
+                    "bottom": 0.9887734651565552
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.014799830503761768,
+                    "top": 0.3340195119380951,
+                    "right": 0.9798923134803772,
+                    "bottom": 0.9809384346008301
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.007642698474228382,
+                    "top": 0.33420801162719727,
+                    "right": 0.9745631217956543,
+                    "bottom": 0.9803295135498047
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.0025908155366778374,
+                    "top": 0.3337554633617401,
+                    "right": 0.9529476165771484,
+                    "bottom": 0.9866232872009277
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": -0.0013260903069749475,
+                    "top": 0.3382338583469391,
+                    "right": 0.9472264647483826,
+                    "bottom": 0.9882773160934448
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": -0.0034516556188464165,
+                    "top": 0.3439251780509949,
+                    "right": 0.9467433094978333,
+                    "bottom": 0.9875960946083069
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.008025186136364937,
+                    "top": 0.3396626114845276,
+                    "right": 0.9407258629798889,
+                    "bottom": 0.9870104789733887
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.007560834288597107,
+                    "top": 0.3393361270427704,
+                    "right": 0.9403653740882874,
+                    "bottom": 0.9865673780441284
+                }
+            },
+            {
+                "timestamp_offset": 5,
+                "normalized_bounding_box": {
+                    "left": 0.007273280993103981,
+                    "top": 0.3385169208049774,
+                    "right": 0.9400851726531982,
+                    "bottom": 0.9857398271560669
+                }
+            },
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": 0.00027409184258431196,
+                    "top": 0.30993297696113586,
+                    "right": 0.9601784944534302,
+                    "bottom": 0.9946130514144897
+                }
+            },
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": 0.005973446182906628,
+                    "top": 0.31442105770111084,
+                    "right": 0.954617440700531,
+                    "bottom": 0.9841002225875854
+                }
+            },
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": -0.00075991713674739,
+                    "top": 0.32865601778030396,
+                    "right": 0.9769326448440552,
+                    "bottom": 0.9704370498657227
+                }
+            },
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": 0.0007170018507167697,
+                    "top": 0.32737019658088684,
+                    "right": 0.9823164343833923,
+                    "bottom": 0.9797067642211914
+                }
+            },
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": 0.0009986659279093146,
+                    "top": 0.32251113653182983,
+                    "right": 0.9874208569526672,
+                    "bottom": 0.9814491271972656
+                }
+            },
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": 0.0026807028334587812,
+                    "top": 0.32924461364746094,
+                    "right": 0.9844492077827454,
+                    "bottom": 0.9806523323059082
+                }
+            },
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": 0.00683575076982379,
+                    "top": 0.3338358998298645,
+                    "right": 0.9822637438774109,
+                    "bottom": 0.9840494394302368
+                }
+            },
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": 0.0020895390771329403,
+                    "top": 0.32658445835113525,
+                    "right": 0.9876084923744202,
+                    "bottom": 0.9848366379737854
+                }
+            },
+            {
+                "timestamp_offset": 6,
+                "normalized_bounding_box": {
+                    "left": 0.00254826620221138,
+                    "top": 0.32081082463264465,
+                    "right": 0.9805924892425537,
+                    "bottom": 0.9854353666305542
+                }
+            },
+            {
+                "timestamp_offset": 7,
+                "normalized_bounding_box": {
+                    "left": 0.00016175393830053508,
+                    "top": 0.3272583782672882,
+                    "right": 0.9808861017227173,
+                    "bottom": 0.9863286018371582
+                }
+            },
+            {
+                "timestamp_offset": 7,
+                "normalized_bounding_box": {
+                    "left": 0.0009493199759162962,
+                    "top": 0.33285972476005554,
+                    "right": 0.9826521873474121,
+                    "bottom": 0.9889246225357056
+                }
+            },
+            {
+                "timestamp_offset": 7,
+                "normalized_bounding_box": {
+                    "left": 0.002918801037594676,
+                    "top": 0.3375917971134186,
+                    "right": 0.9846059083938599,
+                    "bottom": 0.9916255474090576
+                }
+            },
+            {
+                "timestamp_offset": 7,
+                "normalized_bounding_box": {
+                    "left": 0.0011436293134465814,
+                    "top": 0.3321387767791748,
+                    "right": 0.9849572777748108,
+                    "bottom": 0.9899250268936157
+                }
+            },
+            {
+                "timestamp_offset": 7,
+                "normalized_bounding_box": {
+                    "left": 0.005645951721817255,
+                    "top": 0.33446061611175537,
+                    "right": 0.9826946258544922,
+                    "bottom": 0.987736165523529
+                }
+            },
+            {
+                "timestamp_offset": 7,
+                "normalized_bounding_box": {
+                    "left": 0.005169226322323084,
+                    "top": 0.33325204253196716,
+                    "right": 0.9818230867385864,
+                    "bottom": 0.9868817329406738
+                }
+            },
+            {
+                "timestamp_offset": 7,
+                "normalized_bounding_box": {
+                    "left": 0.00409851735457778,
+                    "top": 0.3323204517364502,
+                    "right": 0.9829280972480774,
+                    "bottom": 0.9831138253211975
+                }
+            },
+            {
+                "timestamp_offset": 7,
+                "normalized_bounding_box": {
+                    "left": 0.003206204390153289,
+                    "top": 0.32902243733406067,
+                    "right": 0.9784562587738037,
+                    "bottom": 0.9852590560913086
+                }
+            },
+            {
+                "timestamp_offset": 8,
+                "normalized_bounding_box": {
+                    "left": 0.0029081699904054403,
+                    "top": 0.3296563923358917,
+                    "right": 0.979516327381134,
+                    "bottom": 0.9848073720932007
+                }
+            },
+            {
+                "timestamp_offset": 8,
+                "normalized_bounding_box": {
+                    "left": 0.0038062294479459524,
+                    "top": 0.3373287618160248,
+                    "right": 0.9649661779403687,
+                    "bottom": 0.9875943660736084
+                }
+            },
+            {
+                "timestamp_offset": 8,
+                "normalized_bounding_box": {
+                    "left": -0.001203750493004918,
+                    "top": 0.3372153341770172,
+                    "right": 0.9785425662994385,
+                    "bottom": 0.9880683422088623
+                }
+            },
+            {
+                "timestamp_offset": 8,
+                "normalized_bounding_box": {
+                    "left": 0.0023769678082317114,
+                    "top": 0.3405969738960266,
+                    "right": 0.9785463809967041,
+                    "bottom": 0.9859985709190369
+                }
+            },
+            {
+                "timestamp_offset": 8,
+                "normalized_bounding_box": {
+                    "left": 0.002403026446700096,
+                    "top": 0.33832406997680664,
+                    "right": 0.9722748398780823,
+                    "bottom": 0.9862529635429382
+                }
+            },
+            {
+                "timestamp_offset": 8,
+                "normalized_bounding_box": {
+                    "left": 0.005114811006933451,
+                    "top": 0.34253615140914917,
+                    "right": 0.952684223651886,
+                    "bottom": 0.9892891645431519
+                }
+            },
+            {
+                "timestamp_offset": 8,
+                "normalized_bounding_box": {
+                    "left": 0.0028098737820982933,
+                    "top": 0.35008466243743896,
+                    "right": 0.9551628828048706,
+                    "bottom": 0.988615095615387
+                }
+            },
+            {
+                "timestamp_offset": 8,
+                "normalized_bounding_box": {
+                    "left": 0.003524024737998843,
+                    "top": 0.34896120429039,
+                    "right": 0.9513652324676514,
+                    "bottom": 0.988168478012085
+                }
+            },
+            {
+                "timestamp_offset": 9,
+                "normalized_bounding_box": {
+                    "left": 0.0038898461498320103,
+                    "top": 0.3479898273944855,
+                    "right": 0.9450794458389282,
+                    "bottom": 0.9849008321762085
+                }
+            },
+            {
+                "timestamp_offset": 9,
+                "normalized_bounding_box": {
+                    "left": 0.0019432062981650233,
+                    "top": 0.3396005630493164,
+                    "right": 0.942232608795166,
+                    "bottom": 0.9875444173812866
+                }
+            },
+            {
+                "timestamp_offset": 9,
+                "normalized_bounding_box": {
+                    "left": -0.002850688062608242,
+                    "top": 0.34234535694122314,
+                    "right": 0.9525137543678284,
+                    "bottom": 0.9846543073654175
+                }
+            },
+            {
+                "timestamp_offset": 9,
+                "normalized_bounding_box": {
+                    "left": -0.0016177080105990171,
+                    "top": 0.34676745533943176,
+                    "right": 0.9559175968170166,
+                    "bottom": 0.9837131500244141
+                }
+            },
+            {
+                "timestamp_offset": 9,
+                "normalized_bounding_box": {
+                    "left": 0.003911538515239954,
+                    "top": 0.3515353500843048,
+                    "right": 0.9420695900917053,
+                    "bottom": 0.984805703163147
+                }
+            },
+            {
+                "timestamp_offset": 9,
+                "normalized_bounding_box": {
+                    "left": 0.0056120865046978,
+                    "top": 0.3507557511329651,
+                    "right": 0.9407470226287842,
+                    "bottom": 0.992344319820404
+                }
+            },
+            {
+                "timestamp_offset": 9,
+                "normalized_bounding_box": {
+                    "left": 0.0017091594636440277,
+                    "top": 0.3495768904685974,
+                    "right": 0.9520688652992249,
+                    "bottom": 0.989547610282898
+                }
+            },
+            {
+                "timestamp_offset": 9,
+                "normalized_bounding_box": {
+                    "left": 0.0035714334808290005,
+                    "top": 0.34295424818992615,
+                    "right": 0.9585942625999451,
+                    "bottom": 0.988884687423706
+                }
+            },
+            {
+                "timestamp_offset": 9,
+                "normalized_bounding_box": {
+                    "left": 0.005898497998714447,
+                    "top": 0.33973264694213867,
+                    "right": 0.9521796107292175,
+                    "bottom": 0.988699197769165
+                }
+            },
+            {
+                "timestamp_offset": 10,
+                "normalized_bounding_box": {
+                    "left": 0.00420667277649045,
+                    "top": 0.34135672450065613,
+                    "right": 0.9563224911689758,
+                    "bottom": 0.9855433702468872
+                }
+            },
+            {
+                "timestamp_offset": 10,
+                "normalized_bounding_box": {
+                    "left": 0.012944023124873638,
+                    "top": 0.350639671087265,
+                    "right": 0.94068443775177,
+                    "bottom": 0.9872850179672241
+                }
+            },
+            {
+                "timestamp_offset": 10,
+                "normalized_bounding_box": {
+                    "left": 0.0060416352935135365,
+                    "top": 0.3502667248249054,
+                    "right": 0.9396559000015259,
+                    "bottom": 0.9928092956542969
+                }
+            },
+            {
+                "timestamp_offset": 10,
+                "normalized_bounding_box": {
+                    "left": 4.711586734629236e-05,
+                    "top": 0.34290239214897156,
+                    "right": 0.9526862502098083,
+                    "bottom": 0.996269702911377
+                }
+            },
+            {
+                "timestamp_offset": 10,
+                "normalized_bounding_box": {
+                    "left": 0.005456472281366587,
+                    "top": 0.34616437554359436,
+                    "right": 0.9464548826217651,
+                    "bottom": 0.9933474063873291
+                }
+            },
+            {
+                "timestamp_offset": 10,
+                "normalized_bounding_box": {
+                    "left": 0.00113094097469002,
+                    "top": 0.34387442469596863,
+                    "right": 0.947950005531311,
+                    "bottom": 0.991762638092041
+                }
+            },
+            {
+                "timestamp_offset": 10,
+                "normalized_bounding_box": {
+                    "left": -0.0011218960862606764,
+                    "top": 0.34253451228141785,
+                    "right": 0.9530553221702576,
+                    "bottom": 0.9901820421218872
+                }
+            },
+            {
+                "timestamp_offset": 10,
+                "normalized_bounding_box": {
+                    "left": -0.000753023661673069,
+                    "top": 0.34099242091178894,
+                    "right": 0.955673336982727,
+                    "bottom": 0.9918245077133179
+                }
+            },
+            {
+                "timestamp_offset": 11,
+                "normalized_bounding_box": {
+                    "left": 0.00021832363563589752,
+                    "top": 0.350409597158432,
+                    "right": 0.9582028388977051,
+                    "bottom": 0.9900903701782227
+                }
+            },
+            {
+                "timestamp_offset": 11,
+                "normalized_bounding_box": {
+                    "left": 0.002762980991974473,
+                    "top": 0.3476877510547638,
+                    "right": 0.9564769864082336,
+                    "bottom": 0.9902337789535522
+                }
+            },
+            {
+                "timestamp_offset": 11,
+                "normalized_bounding_box": {
+                    "left": 0.003119763918220997,
+                    "top": 0.342337429523468,
+                    "right": 0.9474033713340759,
+                    "bottom": 0.9928532838821411
+                }
+            },
+            {
+                "timestamp_offset": 11,
+                "normalized_bounding_box": {
+                    "left": 1.3799844055029098e-05,
+                    "top": 0.35388052463531494,
+                    "right": 0.9547110795974731,
+                    "bottom": 0.9941399097442627
+                }
+            },
+            {
+                "timestamp_offset": 11,
+                "normalized_bounding_box": {
+                    "left": 0.001168654067441821,
+                    "top": 0.35047128796577454,
+                    "right": 0.9496681094169617,
+                    "bottom": 0.9955238103866577
+                }
+            },
+            {
+                "timestamp_offset": 11,
+                "normalized_bounding_box": {
+                    "left": -0.0005015039932914078,
+                    "top": 0.3519449830055237,
+                    "right": 0.9516926407814026,
+                    "bottom": 0.9909564256668091
+                }
+            },
+            {
+                "timestamp_offset": 11,
+                "normalized_bounding_box": {
+                    "left": 0.21743345260620117,
+                    "top": 0.4776325523853302,
+                    "right": 0.6133763194084167,
+                    "bottom": 0.7333730459213257
+                }
+            },
+            {
+                "timestamp_offset": 11,
+                "normalized_bounding_box": {
+                    "left": 0.1925622671842575,
+                    "top": 0.4572227895259857,
+                    "right": 0.5256557464599609,
+                    "bottom": 0.7178729772567749
+                }
+            },
+            {
+                "timestamp_offset": 12,
+                "normalized_bounding_box": {
+                    "left": 0.17475630342960358,
+                    "top": 0.44654327630996704,
+                    "right": 0.5242476463317871,
+                    "bottom": 0.7190546989440918
+                }
+            }
+        ]
+    },
+    {
+        "track_id": "/m/02wbm",
+        "description": "food",
+        "frames": [
+            {
+                "timestamp_offset": 12,
+                "normalized_bounding_box": {
+                    "left": 0.0,
+                    "top": 0.36718443036079407,
+                    "right": 0.945276141166687,
+                    "bottom": 0.9950518608093262
+                }
+            },
+            {
+                "timestamp_offset": 12,
+                "normalized_bounding_box": {
+                    "left": 0.0031157401390373707,
+                    "top": 0.3609178066253662,
+                    "right": 0.9400883913040161,
+                    "bottom": 0.9957267642021179
+                }
+            },
+            {
+                "timestamp_offset": 12,
+                "normalized_bounding_box": {
+                    "left": 0.0007366214995272458,
+                    "top": 0.3560810983181,
+                    "right": 0.9651154279708862,
+                    "bottom": 0.9905890226364136
+                }
+            },
+            {
+                "timestamp_offset": 12,
+                "normalized_bounding_box": {
+                    "left": 0.00377160357311368,
+                    "top": 0.36046382784843445,
+                    "right": 0.9471110701560974,
+                    "bottom": 0.9921563863754272
+                }
+            },
+            {
+                "timestamp_offset": 12,
+                "normalized_bounding_box": {
+                    "left": -0.0019505787640810013,
+                    "top": 0.3522304892539978,
+                    "right": 0.9675871729850769,
+                    "bottom": 0.9917828440666199
+                }
+            },
+            {
+                "timestamp_offset": 12,
+                "normalized_bounding_box": {
+                    "left": 0.0026124329306185246,
+                    "top": 0.35238078236579895,
+                    "right": 0.9684681296348572,
+                    "bottom": 0.9920268058776855
+                }
+            },
+            {
+                "timestamp_offset": 12,
+                "normalized_bounding_box": {
+                    "left": 0.009871060959994793,
+                    "top": 0.3591747581958771,
+                    "right": 0.9519993662834167,
+                    "bottom": 0.9911670684814453
+                }
+            },
+            {
+                "timestamp_offset": 12,
+                "normalized_bounding_box": {
+                    "left": 0.0012978001032024622,
+                    "top": 0.36007755994796753,
+                    "right": 0.9576903581619263,
+                    "bottom": 0.9894880652427673
+                }
+            },
+            {
+                "timestamp_offset": 13,
+                "normalized_bounding_box": {
+                    "left": -0.0003073477710131556,
+                    "top": 0.36093831062316895,
+                    "right": 0.9589880108833313,
+                    "bottom": 0.9875217080116272
+                }
+            },
+            {
+                "timestamp_offset": 13,
+                "normalized_bounding_box": {
+                    "left": -4.7884004743536934e-05,
+                    "top": 0.35257869958877563,
+                    "right": 0.9576963782310486,
+                    "bottom": 0.9902536869049072
+                }
+            },
+            {
+                "timestamp_offset": 13,
+                "normalized_bounding_box": {
+                    "left": -0.0012940105516463518,
+                    "top": 0.3542763888835907,
+                    "right": 0.9624843597412109,
+                    "bottom": 0.9885319471359253
+                }
+            },
+            {
+                "timestamp_offset": 13,
+                "normalized_bounding_box": {
+                    "left": 0.009662551805377007,
+                    "top": 0.3662329912185669,
+                    "right": 0.9365057349205017,
+                    "bottom": 0.9899699091911316
+                }
+            },
+            {
+                "timestamp_offset": 13,
+                "normalized_bounding_box": {
+                    "left": 0.003845581552013755,
+                    "top": 0.3766951560974121,
+                    "right": 0.9401490092277527,
+                    "bottom": 0.9939488172531128
+                }
+            },
+            {
+                "timestamp_offset": 13,
+                "normalized_bounding_box": {
+                    "left": 0.004701824393123388,
+                    "top": 0.3683832287788391,
+                    "right": 0.9425963163375854,
+                    "bottom": 0.9999232292175293
+                }
+            },
+            {
+                "timestamp_offset": 13,
+                "normalized_bounding_box": {
+                    "left": 0.0018785870634019375,
+                    "top": 0.3748481869697571,
+                    "right": 0.9574276804924011,
+                    "bottom": 0.9961088299751282
+                }
+            },
+            {
+                "timestamp_offset": 13,
+                "normalized_bounding_box": {
+                    "left": 0.005480908788740635,
+                    "top": 0.38235464692115784,
+                    "right": 0.9548777341842651,
+                    "bottom": 0.9939233064651489
+                }
+            },
+            {
+                "timestamp_offset": 14,
+                "normalized_bounding_box": {
+                    "left": 0.007388856261968613,
+                    "top": 0.377110093832016,
+                    "right": 0.9510194659233093,
+                    "bottom": 0.9990110397338867
+                }
+            },
+            {
+                "timestamp_offset": 14,
+                "normalized_bounding_box": {
+                    "left": 0.00322928954847157,
+                    "top": 0.37519457936286926,
+                    "right": 0.9550794363021851,
+                    "bottom": 0.9987775087356567
+                }
+            },
+            {
+                "timestamp_offset": 14,
+                "normalized_bounding_box": {
+                    "left": 0.217194065451622,
+                    "top": 0.4946959614753723,
+                    "right": 0.6068782806396484,
+                    "bottom": 0.7820348739624023
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "entity": "umbrella",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 10,
+                "confidence": 0.6990727782249451
+            }
+        ]
+    }
+]

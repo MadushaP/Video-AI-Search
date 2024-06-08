@@ -1,0 +1,165 @@
+[
+    {
+        "entity": "overpass",
+        "categories": [
+            "bridge"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.7941117882728577
+            }
+        ]
+    },
+    {
+        "entity": "cityscape",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.9312284588813782
+            }
+        ]
+    },
+    {
+        "entity": "urban area",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.8266099095344543
+            }
+        ]
+    },
+    {
+        "entity": "metropolis",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.5043646097183228
+            }
+        ]
+    },
+    {
+        "entity": "city",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.9058884978294373
+            }
+        ]
+    },
+    {
+        "entity": "skyline",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.9678267240524292
+            }
+        ]
+    },
+    {
+        "entity": "downtown",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.49515461921691895
+            }
+        ]
+    },
+    {
+        "entity": "bridge",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.4669742286205292
+            }
+        ]
+    },
+    {
+        "entity": "transport",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.5031905174255371
+            }
+        ]
+    },
+    {
+        "entity": "vehicle",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.45971599221229553
+            }
+        ]
+    },
+    {
+        "entity": "metropolitan area",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.7444186210632324
+            }
+        ]
+    },
+    {
+        "entity": "skyscraper",
+        "categories": [
+            "building"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.797679603099823
+            }
+        ]
+    },
+    {
+        "entity": "train",
+        "categories": [
+            "vehicle"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 20,
+                "confidence": 0.7657400965690613
+            }
+        ]
+    }
+]

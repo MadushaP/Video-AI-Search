@@ -1,0 +1,15 @@
+[
+    {
+        "entity": "pedestrian",
+        "categories": [
+            "person"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 23,
+                "confidence": 0.36292508244514465
+            }
+        ]
+    }
+]

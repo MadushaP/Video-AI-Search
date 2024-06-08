@@ -1,0 +1,41 @@
+[
+    {
+        "entity": "urban area",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 123,
+                "confidence": 0.3443881571292877
+            }
+        ]
+    },
+    {
+        "entity": "street",
+        "categories": [
+            "road"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 123,
+                "confidence": 0.6052075028419495
+            }
+        ]
+    },
+    {
+        "entity": "crowd",
+        "categories": [
+            "people"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 123,
+                "confidence": 0.5017532706260681
+            }
+        ]
+    }
+]

@@ -42,7 +42,7 @@ def analyze_video(bucket_name, path, output_file):
         input_uri=f"gs://{bucket_name}/{path}", features=features
     )
     print(f"\nProcessing video {path} for object tracking:")
-    result = operation.result(timeout=90)
+    result = operation.result(timeout=900)
     print("\nFinished processing.")
 
     # Extract object data from the response

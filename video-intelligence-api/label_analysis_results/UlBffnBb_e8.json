@@ -1,0 +1,128 @@
+[
+    {
+        "entity": "highland",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 13,
+                "confidence": 0.31028589606285095
+            }
+        ]
+    },
+    {
+        "entity": "hill",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 13,
+                "confidence": 0.38367268443107605
+            }
+        ]
+    },
+    {
+        "entity": "nature",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 13,
+                "confidence": 0.9556970000267029
+            }
+        ]
+    },
+    {
+        "entity": "valley",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 13,
+                "confidence": 0.5528186559677124
+            }
+        ]
+    },
+    {
+        "entity": "aerial photography",
+        "categories": [
+            "photography"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 13,
+                "confidence": 0.8615679144859314
+            }
+        ]
+    },
+    {
+        "entity": "forest",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 13,
+                "confidence": 0.6813427805900574
+            }
+        ]
+    },
+    {
+        "entity": "vegetation",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 13,
+                "confidence": 0.704377293586731
+            }
+        ]
+    },
+    {
+        "entity": "water resources",
+        "categories": [
+            "water"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 13,
+                "confidence": 0.6868888139724731
+            }
+        ]
+    },
+    {
+        "entity": "bird's eye view",
+        "categories": [
+            "landscape"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 13,
+                "confidence": 0.6668874621391296
+            }
+        ]
+    },
+    {
+        "entity": "nature reserve",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 13,
+                "confidence": 0.37409451603889465
+            }
+        ]
+    }
+]

@@ -1,0 +1,163 @@
+[
+    {
+        "entity": "cityscape",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.9708330631256104
+            }
+        ]
+    },
+    {
+        "entity": "city",
+        "categories": [
+            "geographical feature"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.9806135892868042
+            }
+        ]
+    },
+    {
+        "entity": "skyline",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.9847416281700134
+            }
+        ]
+    },
+    {
+        "entity": "urban area",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.9057642817497253
+            }
+        ]
+    },
+    {
+        "entity": "downtown",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.9468671083450317
+            }
+        ]
+    },
+    {
+        "entity": "reflection",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.4324989914894104
+            }
+        ]
+    },
+    {
+        "entity": "tower",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.6455264687538147
+            }
+        ]
+    },
+    {
+        "entity": "night",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.5343660116195679
+            }
+        ]
+    },
+    {
+        "entity": "skyscraper",
+        "categories": [
+            "building"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.9734643697738647
+            }
+        ]
+    },
+    {
+        "entity": "metropolis",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.8553374409675598
+            }
+        ]
+    },
+    {
+        "entity": "building",
+        "categories": [],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.48432686924934387
+            }
+        ]
+    },
+    {
+        "entity": "metropolitan area",
+        "categories": [
+            "city"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.8356513977050781
+            }
+        ]
+    },
+    {
+        "entity": "tower block",
+        "categories": [
+            "building"
+        ],
+        "segments": [
+            {
+                "start_time": 0,
+                "end_time": 16,
+                "confidence": 0.5946406722068787
+            }
+        ]
+    }
+]
