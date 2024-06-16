@@ -57,7 +57,7 @@ function VideoPage() {
     const importJsonFiles = async () => {
       try {
         if (videoid) {
-          const file = await import(`../../../../video-intelligence-api/object_analysis_results/${videoid}.json`);
+          const file = await import(`../../../video-intelligence-api/object_analysis_results/${videoid}.json`);
           setFetchedData(file.default);
         }
       } catch (error) {

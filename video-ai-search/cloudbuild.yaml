@@ -1,0 +1,12 @@
+# This YAML file defines the build steps for Cloud Build.
+
+steps:
+
+# Install dependencies using npm
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['install']
+
+# Build Docker image (replace with your project directory and image name)
+- name: 'cloudbuilder/docker'
+  args: ['build', '-t', 'video-ai-search:tag', '.']
+  dir: video-ai-search
