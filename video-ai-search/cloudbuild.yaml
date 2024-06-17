@@ -1,12 +1,17 @@
-# This YAML file defines the build steps for Cloud Build.
-
 steps:
+  # Existing build step (assuming it's in your current directory)
+  - name: 'cloudbuilder/docker'
+    args: ['build', '-t', 'video-ai-search:$COMMIT_SHA', '.']  # Use COMMIT_SHA for versioning
 
-# Install dependencies using npm
-- name: 'gcr.io/cloud-builders/npm'
-  args: ['install']
+  # Push the image to Container Registry
+  - name: 'gcr.io/glass-oath-344412/video-ai-search:$COMMIT_SHA'  # Replace with your details
+    args: ['push', 'gcr.io/glass-oath-344412/video-ai-search:$COMMIT_SHA']
+    builder: 'docker'
 
-# Build Docker image (replace with your project directory and image name)
-- name: 'cloudbuilder/docker'
-  args: ['build', '-t', 'video-ai-search:tag', '.']
-  dir: video-ai-search
+  # Deploy to Cloud Run
+  - name: Deploy to Cloud Run
+    run: |  # Note the multi-line string syntax
+      gcloud run deploy video-ai-search  # Replace with your service name
+      --image 'gcr.io/glass-oath-344412/video-ai-search:$COMMIT_SHA'
+      --platform managed
+      --region europe-north1  # Replace with your desired region
