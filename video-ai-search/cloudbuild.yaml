@@ -1,7 +1,7 @@
 steps:
   # Build the Docker image
   - name: 'gcr.io/cloud-builders/docker'  # Specify the Docker builder image
-    args: ['build', '-t', 'gcr.io/glass-oath-344412/video-ai-search:$COMMIT_SHA', '.']
+    args: ['build', '-t', 'gcr.io/glass-oath-344412/video-ai-search:$COMMIT_SHA', 'video-ai-search/.']
 
   # Push the image to Container Registry
   - name: 'gcr.io/cloud-builders/docker'  # Specify the Docker builder image
