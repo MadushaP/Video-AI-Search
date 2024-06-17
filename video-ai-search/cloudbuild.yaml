@@ -1,7 +1,7 @@
 steps:
   # Existing build step (assuming it's in your current directory)
-  - name: 'cloudbuilder/docker'
-    args: ['build', '-t', 'video-ai-search:$COMMIT_SHA', '.']  # Use COMMIT_SHA for versioning
+  - name: 'docker'  # Removed "builder" and using just the image name
+    args: ['build', '-t', 'video-ai-search:$COMMIT_SHA', '.']
 
   # Push the image to Container Registry
   - name: 'gcr.io/glass-oath-344412/video-ai-search:$COMMIT_SHA'  # Replace with your details
