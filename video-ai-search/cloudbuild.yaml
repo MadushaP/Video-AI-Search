@@ -17,3 +17,6 @@ steps:
           --image 'gcr.io/glass-oath-344412/video-ai-search:$COMMIT_SHA' \
           --platform managed \
           --region europe-north1
+
+options:
+  logging: CLOUD_LOGGING_ONLY  # Use Cloud Logging only for logs
